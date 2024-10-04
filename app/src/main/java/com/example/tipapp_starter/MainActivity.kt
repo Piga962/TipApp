@@ -114,7 +114,7 @@ fun TipApp(modifier: Modifier = Modifier) {
                 verticalArrangement = Arrangement.Top)
             {
                 Topheader(totalPerPerson = totalPerPersonState.value)
-                InputField(valueState = totalBillState, labelId = "Ingresar Costo")
+                InputField(valueState = totalBillState, labelId = "Enter Bill Amount")
 
                 Row(modifier = Modifier.padding(3.dp),
                     horizontalArrangement = Arrangement.Start
